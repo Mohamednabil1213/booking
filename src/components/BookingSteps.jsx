@@ -38,7 +38,8 @@ const features = [
 
 const BookingSteps = () => {
   return (
-    <><section className="py-16 bg-gray-50 text-center">
+    <><section className="py-16 bg-gray-200
+    -50 text-center">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-10 text-gray-800">
           لماذا تحجز معنا؟
@@ -58,7 +59,7 @@ const BookingSteps = () => {
           ))}
         </div>
       </div>
-    </section><section className="py-16 bg-gray-50 text-center">
+    </section><section className="py-16 bg-gray-200 text-center">
         <h2 className="text-3xl font-bold mb-12 text-gray-800">كيف يتم الحجز؟</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-w-6xl mx-auto px-4">
           {steps.map((step, index) => (

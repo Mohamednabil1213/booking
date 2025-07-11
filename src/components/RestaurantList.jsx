@@ -38,13 +38,13 @@ const restaurants = [
 
 const RestaurantList = () => {
   return (
-    <section className="py-16 px-4 bg-white text-center">
+    <section className="py-16 px-4 bg-gray-200 text-center">
       <h2 className="text-3xl font-bold mb-12 text-gray-800">المطاعم والفنادق</h2>
       <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
         {restaurants.map((restaurant, index) => (
           <div
             key={index}
-            className="bg-gray-50 rounded-2xl shadow p-4 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+            className="bg-gray-50 rounded-2xl shadow-2xl p-4 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
           >
 
             <img
